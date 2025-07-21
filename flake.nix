@@ -15,6 +15,8 @@
           devShells.default = pkgs.mkShell {
             nativeBuildInputs = with pkgs; [
               pkgsCross.i686-embedded.buildPackages.gcc
+              ninja
+              meson
             ];
           };
         };

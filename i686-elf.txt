@@ -1,0 +1,12 @@
+[binaries]
+c = 'i686-elf-gcc'
+cpp = 'i686-elf-g++'
+as = 'i686-elf-as'
+ar = 'i686-elf-ar'
+ld = 'i686-elf-ld'
+
+[host_machine]
+system = 'none'
+cpu_family = 'x86'
+cpu = 'i686'
+endian = 'little'
