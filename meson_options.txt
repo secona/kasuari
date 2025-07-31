@@ -1,1 +1,5 @@
-option('host_arch', type: 'string', description: 'Target host architecture (e.g., i686)')
+option(
+    'host_arch',
+    type: 'string',
+    description: 'Target host architecture (e.g., i686)',
+)
